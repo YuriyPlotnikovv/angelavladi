@@ -1,0 +1,10 @@
+.colors {
+  &__item {
+    display: block;
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid $colorGray;
+    border-radius: 50%;
+  }
+}

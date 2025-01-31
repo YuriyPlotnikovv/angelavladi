@@ -1,0 +1,12 @@
+.about {
+  &__slider-about {
+    display: block;
+    width: 100%;
+
+    box-shadow: $boxShadow;
+  }
+
+  &__info {
+    box-shadow: $boxShadow, $boxShadowOutset;
+  }
+}

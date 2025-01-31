@@ -1,0 +1,10 @@
+.reviews {
+  &__comments {
+    box-shadow: $boxShadow;
+  }
+
+  &__new-comment {
+    background-color: $colorGrayTwo;
+    box-shadow: $boxShadow, $boxShadowOutset;
+  }
+}

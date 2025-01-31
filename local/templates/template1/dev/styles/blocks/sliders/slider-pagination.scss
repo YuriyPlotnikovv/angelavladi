@@ -1,0 +1,17 @@
+.slider-pagination {
+  .swiper-pagination-bullet {
+    display: block;
+    width: 20px;
+    height: 7px;
+
+    border-radius: 30%;
+    background-color: $colorGray;
+    opacity: 0.6;
+    
+    cursor: pointer;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: $colorRed;
+  }
+}

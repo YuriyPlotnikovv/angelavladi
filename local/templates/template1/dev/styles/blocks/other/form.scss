@@ -1,0 +1,169 @@
+.form {
+  &__title {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+
+    @media (max-width: $tablet-max-width) {
+      grid-column: 1 / 4;
+    }
+  }
+
+  &__name {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+    @include form-input;
+  }
+
+  &__email {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    @include form-input;
+
+    @media (max-width: $tablet-max-width) {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+  }
+
+  &__phone {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+
+    @include form-input;
+
+    @media (max-width: $tablet-max-width) {
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+    }
+  }
+
+  &__message {
+    grid-row: 3 / 5;
+    
+    @include form-input;
+    max-width: none;
+
+    @media (max-width: $tablet-max-width) {
+      grid-column: 2 / 3;
+      grid-row: 2 / 5;
+    }
+    @media (max-width: $mobile-max-width) {
+      max-width: 500px;
+    }
+
+    &--request {
+      grid-column: 1 / 2;
+
+      @media (max-width: $tablet-max-width) {
+        grid-column: 2 / 4;
+        grid-row: 2 / 4;
+      }
+    }
+
+    &--review {
+      grid-column: 1 / 3;
+
+      @media (max-width: $tablet-max-width) {
+        grid-column: 2 / 4;
+      }
+    }
+  }
+
+  &__communication {
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
+    justify-self: start;
+    align-self: flex-start;
+
+    @media (max-width: $tablet-max-width) {
+      grid-column: 2 / 4;
+      grid-row: 4 / 5;
+    }
+  }
+
+  &__communication-fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    
+    border: none;
+
+    @media (max-width: $tablet-max-width) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: flex-start;
+      gap: 15px;
+    }
+  }
+  
+  &__communication-legend {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  &__communication-checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+  }
+
+  &__agreement {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    align-self: end;
+    justify-self: center;
+
+    @media (max-width: $tablet-max-width) {
+      grid-column: 1 / 3;
+      grid-row: 5 / 6;
+      justify-self: unset;
+    }
+  }
+
+  &__agreement-link {
+    display: inline;
+    text-decoration: underline;
+    color: $colorRed;
+  }
+
+  &__button {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    align-self: end;
+    justify-self: center;
+
+    @media (max-width: $tablet-max-width) {
+      grid-column: 3 / 4;
+      grid-row: 5 / 6;
+      justify-self: unset;
+    }
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+
+    border-radius: 5px;
+  }
+
+  &__input-checkbox {
+    width: 20px;
+  }
+  
+  &__label {
+    display: block;
+  }
+
+  &__invalid-text {
+    color: $colorRed;
+  }
+  
+  &__response {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+  }
+}

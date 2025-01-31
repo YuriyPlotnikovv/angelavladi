@@ -1,0 +1,48 @@
+{
+    "default": {
+        "class": "",
+        "type": "",
+        "subtype": ""
+    },
+
+    "rules": {
+        "main": {
+            "file": "/index.php",
+            "type": "main"
+        },
+        "about": {
+            "rule": "/\\/about\\//",
+            "type": "about"
+        },
+        "catalog-detail": {
+            "rule": "/\\/catalog\\/[a-z0-9_-]+\\/[a-z0-9_-]+\\//",
+            "type": "catalog",
+            "subtype": "detail"
+        },
+        "catalog": {
+            "rule": "/\\/catalog\\//",
+            "type": "catalog"
+        },
+        "collections-detail": {
+            "rule": "/\\/collections\\/[a-z0-9_-]+\\/[a-z0-9_-]+\\//",
+            "type": "collections",
+            "subtype": "detail"
+        },
+        "collections": {
+            "rule": "/\\/collections\\//",
+            "type": "collections"
+        },
+        "contacts": {
+            "rule": "/\\/contacts\\//",
+            "type": "contacts"
+        },
+        "order": {
+            "rule": "/\\/order\\//",
+            "type": "order"
+        },
+        "reviews": {
+            "rule": "/\\/reviews\\//",
+            "type": "reviews"
+        }
+    }
+}

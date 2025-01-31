@@ -1,0 +1,70 @@
+.cookie-notification {
+  position: fixed;
+  z-index: 10000;
+  bottom: 40px;
+  left: 50%;
+
+  transform: translateX(-50%);
+  transition: bottom 0.4s ease-in, visibility 0.4s linear, opacity 0.4s linear;
+  animation: cookieShow 1.5s linear;
+  will-change: transform;
+
+  @media (max-width: $tablet-max-width) {
+    width: 98%;
+    max-width: max-content;
+  }
+
+  @media (max-width: $mobile-max-width) {
+    width: 90%;
+  }
+
+  &--hide {
+    bottom: -100%;
+    visibility: hidden;
+    
+    opacity: 0;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 20px;
+    align-items: center;
+    padding: 15px 15px 15px 40px;
+    
+    font-size: 14px;
+    color: $colorBlack;
+
+    background: $colorWhite;
+    box-shadow: $boxShadowCard;
+
+    @media (max-width: $tablet-max-width) {
+      grid-template-columns: auto max-content;
+      padding: 15px;
+    }
+
+    @media (max-width: $mobile-max-width) {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, auto);
+    }
+
+  }
+
+  &__link {
+    color: $colorRed;
+    transition: .4s;
+  }
+
+  &__text {
+    max-width: 828px;
+
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    @media (max-width: $mobile-max-width) {
+      grid-column: 1 / -1;
+    }
+  }
+}
+

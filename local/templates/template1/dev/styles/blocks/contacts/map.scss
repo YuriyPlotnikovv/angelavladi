@@ -1,0 +1,51 @@
+.map {
+  &__wrapper {
+    width: 100%;
+    max-width: $desktop-max-width;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  &__marker-wrapper {
+    position: absolute;
+    bottom: 12px;
+    left: -148px;
+  }
+
+  &__marker {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: max-content;
+    padding: 10px;
+
+    border: 1px solid $colorBlack;
+    border-radius: 20px;
+    background-color: $colorWhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+    font-size: 14px;
+    font-style: italic;
+
+    &::before, &::after {
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      
+      border: 10px solid transparent;
+      border-top: 10px solid $colorBlack;
+      
+      transform: translateX(-50%);
+      content: '';
+    }
+
+    &::after {
+      bottom: -19px;
+      
+      border-top: 10px solid $colorWhite;
+    }
+  } 
+}
