@@ -2,8 +2,8 @@
 
 class ReCaptcha_v3
 {
-    private const PUBLIC_KEY = "6LeJ0MUpAAAAAEYuJJSRchmtqktq5tfaDIWlBi2l";
-    private const SECRET_KEY = "6LeJ0MUpAAAAADAjQazKy_1TfLCdmoG915T81IIv";
+    private const PUBLIC_KEY = "";
+    private const SECRET_KEY = "";
 
     private string $url = 'https://www.google.com/recaptcha/api/siteverify';
     private float $threshold = 0.7;
