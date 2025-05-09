@@ -1,0 +1,65 @@
+{
+    "title-ru": "AngelaVladi",
+    "title-en": "AngelaVladi",
+    "textFirst-ru": "Проект на 1C-Bitrix и PHP",
+    "textFirst-en": "Project on 1C-Bitrix",
+    "textSecond-ru": "Проект каталога дизайнерской одежды без онлайн покупок, но с оформлением заявок. Полностью с нуля написанный дизайн, структура и вся логика работы.",
+    "textSecond-en": "A design clothing catalog project without online shopping, but with order requests. A completely written design, project structure and the logic of the work.",
+    "deploy": "https://angelavladi.ru/",
+    "features": [
+        {
+            "name-ru": "Страницы",
+            "name-en": "Pages",
+            "description-ru": [
+                "Главная",
+                "Каталог",
+                "Коллекции",
+                "Как заказать",
+                "О нас",
+                "Отзывы",
+                "Контакты",
+                "Детальные страницы товаров"
+            ],
+            "description-en": [
+                "Home",
+                "Catalog",
+                "Collections",
+                "How to Order",
+                "About Us",
+                "Reviews",
+                "Contacts",
+                "Detailed product pages"
+            ]
+        },
+        {
+            "name-ru": "Функциональность",
+            "name-en": "Functionality",
+            "description-ru": [
+                "Библиотеки Swiper и Lightgallery",
+                "Настроен адаптивный ресайз фото и сборка в тег picture",
+                "Формы обратной связи и отзывов с сохранением в админку",
+                "ReCaptcha Google",
+                "Карты Яндекс",
+                "Полностью все данные редактируются из админки"
+            ],
+            "description-en": [
+                "Swiper and Lightgallery libraries",
+                "Adaptive photo resizing configured and assembled into a picture tag",
+                "Feedback and review forms with saving to the admin panel",
+                "Google ReCaptcha",
+                "Yandex maps",
+                "All data can be fully edited from the admin panel"
+            ]
+        },
+        {
+            "name-ru": "Не реализовано",
+            "name-en": "Not Implemented",
+            "description-ru": [
+                "Кастомное свойство типа цвет (для товаров)"
+            ],
+            "description-en": [
+                "Custom property of type color (for products)"
+            ]
+        }
+    ]
+},
