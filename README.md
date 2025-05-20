@@ -20,6 +20,10 @@ A design clothing catalog project without online shopping, but with order reques
 
 ### About the project
 
+#### Development date:
+
+- April 2024
+
 #### Pages:
 
 - Home
@@ -72,6 +76,10 @@ Website: https://yuriyplotnikovv.ru
 ---
 
 ### О проекте
+
+#### Дата разработки:
+
+- Апрель 2024
 
 #### Страницы:
 
