@@ -1,6 +1,6 @@
 # AngelaVladi
 
-<img src=".info/poster.webp" alt="Poster" width="600" />
+
 
 [🇬🇧 English](#english) | [🇷🇺 Русский](#русский)
 
@@ -20,12 +20,15 @@ A design clothing catalog project without online shopping, but with order reques
 
 ### About the project
 
-#### Development date:
+#### Functionality
+- Swiper and Lightgallery libraries
+- Adaptive photo resizing configured and assembled into a picture tag
+- Feedback and review forms with saving to the admin panel
+- Google ReCaptcha
+- Yandex maps
+- All data can be fully edited from the admin panel
 
-- April 2024
-
-#### Pages:
-
+#### Pages
 - Home
 - Catalog
 - Collections
@@ -35,17 +38,7 @@ A design clothing catalog project without online shopping, but with order reques
 - Contacts
 - Detailed product pages
 
-#### Functionality:
-
-- Swiper and Lightgallery libraries
-- Adaptive photo resizing configured and assembled into a picture tag
-- Feedback and review forms with saving to the admin panel
-- Google ReCaptcha
-- Yandex maps
-- All data can be fully edited from the admin panel
-
-#### Not Implemented:
-
+#### Not Implemented
 - Custom property of type color (for products)
 
 ---
@@ -77,12 +70,15 @@ Website: https://yuriyplotnikovv.ru
 
 ### О проекте
 
-#### Дата разработки:
+#### Функциональность
+- Библиотеки Swiper и Lightgallery
+- Настроен адаптивный ресайз фото и сборка в тег picture
+- Формы обратной связи и отзывов с сохранением в админку
+- ReCaptcha Google
+- Карты Яндекс
+- Полностью все данные редактируются из админки
 
-- Апрель 2024
-
-#### Страницы:
-
+#### Страницы
 - Главная
 - Каталог
 - Коллекции
@@ -92,17 +88,7 @@ Website: https://yuriyplotnikovv.ru
 - Контакты
 - Детальные страницы товаров
 
-#### Функциональность:
-
-- Библиотеки Swiper и Lightgallery
-- Настроен адаптивный ресайз фото и сборка в тег picture
-- Формы обратной связи и отзывов с сохранением в админку
-- ReCaptcha Google
-- Карты Яндекс
-- Полностью все данные редактируются из админки
-
-#### Не реализовано:
-
+#### Не реализовано
 - Кастомное свойство типа цвет (для товаров)
 
 ---
