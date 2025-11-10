@@ -1,113 +1,75 @@
 {
-    "id": 6,
-    "title-ru": "AngelaVladi",
-    "title-en": "AngelaVladi",
-    "textFirst-ru": "Проект на 1C-Bitrix и PHP",
-    "textFirst-en": "Project on 1C-Bitrix",
-    "textSecond-ru": "Проект каталога дизайнерской одежды без онлайн покупок, но с оформлением заявок. Полностью с нуля написанный дизайн, структура и вся логика работы.",
-    "textSecond-en": "A design clothing catalog project without online shopping, but with order requests. A completely written design, project structure and the logic of the work.",
-    "deploy": "https://angelavladi.ru/",
-    "features": [
-        {
-            "name-ru": "Дата разработки",
-            "name-en": "Development date",
-            "description-ru": [
-                "Апрель 2024"
-            ],
-            "description-en": [
-                "April 2024"
-            ]
-        },
-        {
-            "name-ru": "Страницы",
-            "name-en": "Pages",
-            "description-ru": [
-                "Главная",
-                "Каталог",
-                "Коллекции",
-                "Как заказать",
-                "О нас",
-                "Отзывы",
-                "Контакты",
-                "Детальные страницы товаров"
-            ],
-            "description-en": [
-                "Home",
-                "Catalog",
-                "Collections",
-                "How to Order",
-                "About Us",
-                "Reviews",
-                "Contacts",
-                "Detailed product pages"
-            ]
-        },
-        {
-            "name-ru": "Функциональность",
-            "name-en": "Functionality",
-            "description-ru": [
-                "Библиотеки Swiper и Lightgallery",
-                "Настроен адаптивный ресайз фото и сборка в тег picture",
-                "Формы обратной связи и отзывов с сохранением в админку",
-                "ReCaptcha Google",
-                "Карты Яндекс",
-                "Полностью все данные редактируются из админки"
-            ],
-            "description-en": [
-                "Swiper and Lightgallery libraries",
-                "Adaptive photo resizing configured and assembled into a picture tag",
-                "Feedback and review forms with saving to the admin panel",
-                "Google ReCaptcha",
-                "Yandex maps",
-                "All data can be fully edited from the admin panel"
-            ]
-        },
-        {
-            "name-ru": "Не реализовано",
-            "name-en": "Not Implemented",
-            "description-ru": [
-                "Кастомное свойство типа цвет (для товаров)"
-            ],
-            "description-en": [
-                "Custom property of type color (for products)"
-            ]
-        }
-    ],
+    "date": "04.2024",
+    "complexity": "3",
+    "category": "commercial",
+    "deploy": "https:\/\/angelavladi.ru\/",
+    "title": {
+        "ru": "AngelaVladi",
+        "en": "AngelaVladi"
+    },
+    "textFirst": {
+        "ru": "Проект на 1C-Bitrix и PHP",
+        "en": "Project on 1C-Bitrix"
+    },
+    "textSecond": {
+        "ru": "Проект каталога дизайнерской одежды без онлайн покупок, но с оформлением заявок. Полностью с нуля написанный дизайн, структура и вся логика работы.",
+        "en": "A design clothing catalog project without online shopping, but with order requests. A completely written design, project structure and the logic of the work."
+    },
+    "functionality": {
+        "ru": [
+            "Библиотеки Swiper и Lightgallery",
+            "Настроен адаптивный ресайз фото и сборка в тег picture",
+            "Формы обратной связи и отзывов с сохранением в админку",
+            "ReCaptcha Google",
+            "Карты Яндекс",
+            "Полностью все данные редактируются из админки"
+        ],
+        "en": [
+            "Swiper and Lightgallery libraries",
+            "Adaptive photo resizing configured and assembled into a picture tag",
+            "Feedback and review forms with saving to the admin panel",
+            "Google ReCaptcha",
+            "Yandex maps",
+            "All data can be fully edited from the admin panel"
+        ]
+    },
     "technologies": [
-        {
-            "name": "HTML",
-            "icon": "icon-html",
-            "link": "https://html.spec.whatwg.org/multipage/"
-        },
-        {
-            "name": "SCSS",
-            "icon": "icon-scss",
-            "link": "https://sass-scss.ru/"
-        },
-        {
-            "name": "JavaScript",
-            "icon": "icon-js",
-            "link": "https://ecma-international.org/publications-and-standards/standards/ecma-262/"
-        },
-        {
-            "name": "PHP",
-            "icon": "icon-php",
-            "link": "https://www.php.net/"
-        },
-        {
-            "name": "Gulp",
-            "icon": "icon-gulp",
-            "link": "https://gulpjs.com/"
-        },
-        {
-            "name": "Vue",
-            "icon": "icon-vue",
-            "link": "https://vuejs.org/"
-        },
-        {
-            "name": "Bitrix",
-            "icon": "icon-bitrix",
-            "link": "https://dev.1c-bitrix.ru/"
-        }
-    ]
+        "html",
+        "scss",
+        "javascript",
+        "php",
+        "gulp",
+        "vue",
+        "bitrix"
+    ],
+    "pages": {
+        "ru": [
+            "Главная",
+            "Каталог",
+            "Коллекции",
+            "Как заказать",
+            "О нас",
+            "Отзывы",
+            "Контакты",
+            "Детальные страницы товаров"
+        ],
+        "en": [
+            "Home",
+            "Catalog",
+            "Collections",
+            "How to Order",
+            "About Us",
+            "Reviews",
+            "Contacts",
+            "Detailed product pages"
+        ]
+    },
+    "notImplemented": {
+        "ru": [
+            "Кастомное свойство типа цвет (для товаров)"
+        ],
+        "en": [
+            "Custom property of type color (for products)"
+        ]
+    }
 }
