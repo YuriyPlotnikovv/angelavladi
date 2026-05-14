@@ -10,7 +10,7 @@
 
 ### AngelaVladi
 
-Project: https://angelavladi.ru/
+Project: http://angelavladi.yuriypvh.beget.tech/
 
 Project on 1C-Bitrix
 
@@ -60,7 +60,7 @@ Website: https://yuriyplotnikovv.ru
 
 ### AngelaVladi
 
-Проект: https://angelavladi.ru/
+Проект: http://angelavladi.yuriypvh.beget.tech/
 
 Проект на 1C-Bitrix и PHP
 
